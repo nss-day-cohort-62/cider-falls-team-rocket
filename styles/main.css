@@ -11,7 +11,32 @@ width: 100%;
     border: 2px solid black ;
 }
 
-.container {
+.grid--3 {
+    order: 0;
+}
+
+.grid--2 {
+    order: 1;
+}
+
+.grid--1 {
+    order: 2;
+}
+
+.grid--4 {
+    order: 3;
+}
+
+.grid--5 {
+    order: 4;
+}
+
+.grid--6 {
+    order: 5;
+}
+
+.content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+
 }

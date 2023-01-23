@@ -19,13 +19,15 @@ const applicationHTML = `
     <article class="serviceList">
         ${serviceList()}
     </article>
-    <article class="details">
-        ${parkAreasGrid()}
-    </article>
-    <aside class="guestList">
-        <h2>Guest List</h2>
-            ${guestList()}
-    </aside>
+    <main class="content">
+        <article class="details">
+            ${parkAreasGrid()}
+        </article>
+        <aside class="guestList">
+            <h2>Guest List</h2>
+                ${guestList()}
+        </aside>
+    </main>
 `
 
 

@@ -40,7 +40,7 @@ export const parkAreasGrid = () => {
 
     for (const parkArea of parkAreas) {
         const parkServices = serviceLocationsList(parkArea)
-        html += `<div class="grid">
+        html += `<div class="grid grid--${parkArea.id}">
         <h3 id="park--${parkArea.id}">${parkArea.name}</h3>
         ${parkServices}
         </div>`
