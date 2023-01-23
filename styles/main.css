@@ -52,15 +52,14 @@ width: 100%;
 .content {
     display: flex;
     flex-direction: row;
-
 }
 
-footer {
+
+footer ul{
     display: flex;
-    
-}
-footer ul {
+    text-align: center;
     list-style-type: none;
+    justify-content: space-evenly;
     
 }
 
