@@ -71,3 +71,6 @@ footer ul {
     width: auto;
     flex-direction: column;
 }
+.image-logo {
+    text-align: center;
+}
