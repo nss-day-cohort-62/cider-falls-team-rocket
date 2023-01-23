@@ -64,3 +64,10 @@ footer ul {
     
 }
 
+.serviceList ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    width: auto;
+    flex-direction: column;
+}
